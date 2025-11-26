@@ -3,11 +3,11 @@ Este diretório contém toda a estrutura e documentação relacionada as máquin
 
 ---
 
-🖥️Máquinas Virtuais
-FortigateOS (NAT, DHCP, Políticas, etc.);
-Windows Server 2019 (AD/DNS);
-Ubuntu Server (MySQL Dedicated Server);
-Windows 11 (Host Cliente)
+🖥️Máquinas Virtuais  
+FortigateOS (NAT, DHCP, Políticas, etc.);  
+Windows Server 2019 (AD/DNS);  
+Ubuntu Server (MySQL Dedicated Server);  
+Windows 11 (Host Cliente).  
 
 ---
 
