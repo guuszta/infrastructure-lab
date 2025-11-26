@@ -1,12 +1,12 @@
 📌Ambiente De Virtualização Do Projeto
 Este diretório contém toda a estrutura e documentação relacionada as máquinas virtuais utilizadas no laboratório de infraestrutura. O software de virtualização a ser utilizado será o VMWare Workbench.
-
+---
 🖥️Máquinas Virtuais
 FortigateOS (NAT, DHCP, Políticas, etc.);
 Windows Server 2019 (AD/DNS);
 Ubuntu Server (MySQL Dedicated Server);
 Windows 11 (Host Cliente)
-
+---
 ⚙️Configuração de Hardware das VMs
 
 🧱Fortigate VM
@@ -31,7 +31,7 @@ Windows 11 (Host Cliente)
 * 2 CPU
 * 4 GB RAM
 * 1 NIC
-
+---
 🌐Configuração De Rede Virtual (vNICs)
 
 🧱Fortigate VM  
