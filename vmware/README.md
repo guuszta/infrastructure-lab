@@ -14,15 +14,18 @@ Windows 11 (Host Cliente)
 * 1 GB RAM
 * 2 NICs (WAN/LAN)
 
+
 🪟Windows Server 2019
 * 2 CPU
 * 2 GB RAM
 * 1 NIC
 
+
 🐧Ubuntu Server (MySQL)
 * 2 CPU
 * 2 GB RAM
 * 1 NIC
+
 
 🖥️Windows 11 Client
 * 2 CPU
@@ -31,15 +34,15 @@ Windows 11 (Host Cliente)
 
 🌐Configuração De Rede Virtual (vNICs)
 
-🧱Fortigate VM
-NIC1 (WAN): Modo NAT
-NIC2 (LAN): Lan Segment 1
+🧱Fortigate VM  
+NIC1 (WAN): Modo NAT  
+NIC2 (LAN): Lan Segment 1  
 
-🪟Windows Server 2019
-NIC: Lan Segment: 1
+🪟Windows Server 2019  
+NIC: Lan Segment: 1  
 
-🐧Ubuntu Server (MySQL)
-NIC: Lan Segment: 1
+🐧Ubuntu Server (MySQL)  
+NIC: Lan Segment: 1  
 
-🖥️Windows 11 Client
-NIC: Lan Segment: 1
+🖥️Windows 11 Client  
+NIC: Lan Segment: 1  
