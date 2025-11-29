@@ -6,26 +6,27 @@ Este diretório contém todas as informações sobre a rede do projeto, desde in
 
 ### Firewall
 
-**Porta 1 (WAN)**
+*Porta 1* (WAN)
 
 IP WAN: 192.168.186.131 (VMWare NAT)  
-Mask: 255.255.255.0
 
-**Porta 2 (LAN)**
+<br>
+
+*Porta 2* (LAN)
 
 192.168.0.1/24 (LAN Segment 1)
 
-**DHCP**
+<br>
 
-IP Range: 192.168.0.100 - 192.168.0.200
+*DHCP*
 
-IP Mask: 255.255.255.0
-
-Gateway: 192.168.0.1 (Firewall + NAT)
-
-DNS: 192.168.0.2 (WinServer2019: AD/DNS)
-
+IP Range: 192.168.0.100 - 192.168.0.200  
+IP Mask: 255.255.255.0  
+Gateway: 192.168.0.1 (Firewall)  
+DNS: 192.168.0.2 (Windows Server)  
 DNS alt: 1.1.1.1
+
+<br>
 
 ### Infraestrutura
 
@@ -40,6 +41,8 @@ Ubuntu Server: 192.168.0.3
 Hosts Reservados: 192.168.0.4 - 192.168.0.99
 
 Windows 11 / Outros Hosts: <Dynamic IP>
+
+<br>
 
 ## 💬 Topologia Descrita
 
