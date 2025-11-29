@@ -1,5 +1,5 @@
 # 📌Ambiente De Virtualização Do Projeto  
-Este diretório contém toda a estrutura e documentação relacionada as máquinas virtuais utilizadas no laboratório de infraestrutura. O software de virtualização a ser utilizado será o VMWare Workbench.
+Este diretório contém toda a estrutura e documentação relacionada as máquinas virtuais utilizadas no laboratório de infraestrutura. O software de virtualização a ser utilizado será o VMWare Workstation.
 
 
 ## 🖥️Máquinas Virtuais
