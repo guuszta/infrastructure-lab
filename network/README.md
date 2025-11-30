@@ -40,7 +40,7 @@ Ubuntu Server: 192.168.0.3
 
 Hosts Reservados: 192.168.0.4 - 192.168.0.99
 
-Windows 11 / Outros Hosts: (Dynamic IP)
+Windows 11 / Outros Hosts: Dynamic IP
 
 <br>
 
