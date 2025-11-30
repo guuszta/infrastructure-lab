@@ -8,7 +8,7 @@ Este diretório contém todas as informações sobre a rede do projeto, desde in
 
 *Porta 1* (WAN)
 
-IP WAN: 192.168.186.131 (VMWare NAT)  
+IP WAN: Dynamic IP (VMWare NAT)  
 
 <br>
 
