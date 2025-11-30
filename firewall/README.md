@@ -17,7 +17,7 @@ LAN Segment 1
 
 Range: 192.168.0.100 - 192.168.0.200  
 Máscara: 255.255.255.0  
-Gateway: 192.168.0.1
+Gateway: 192.168.0.1  
 DNS: 192.168.0.2 (Windows Server)  
 DNS alt: 1.1.1.1
 
@@ -35,3 +35,4 @@ DNS alt: 1.1.1.1
 - LAN → AD/DNS
 - LAN → DB
 - LAN → Client Hosts
+
