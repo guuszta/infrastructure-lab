@@ -1,6 +1,6 @@
 # 📌 Rede Virtual Do Projeto
 
-Este diretório contém todas as informações sobre a rede do projeto, desde informações técnicas, quanto explicações visuais e escritas do caminho de tráfego.
+Este diretório contém todas as informações gerais sobre a rede do projeto, como explicações visuais e escritas do caminho de tráfego. Informações específicas podem ser encontradas no diretório dos dispositivos.
 
 ## 🌐 Informações técnicas
 
