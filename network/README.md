@@ -4,7 +4,7 @@ Este diretório contém todas as informações sobre a rede do projeto, desde in
 
 ## 🌐 Informações técnicas
 
-### Firewall
+### 🧱Firewall
 
 *Porta 1* (WAN)
 
@@ -28,7 +28,7 @@ DNS alt: 1.1.1.1
 
 <br>
 
-### Infraestrutura
+### 🖥️Dispositivos
 
 Sub-rede: 192.168.0.0/24
 
