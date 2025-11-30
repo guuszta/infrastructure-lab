@@ -1,6 +1,4 @@
-🖥️ Configuração Inicial do Fortigate
-
-Arquivo contendo os comandos utilizados para configurar a base do firewall FortiOS no ambiente de laboratório.
+# 🔢 Comandos utilizados para configuração inicial do Firewall
 
 1. Acesso administrativo  
 
@@ -67,3 +65,4 @@ config firewall policy
     next  
 end
 ```
+
