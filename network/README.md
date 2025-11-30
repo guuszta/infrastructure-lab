@@ -4,33 +4,10 @@ Este diretório contém todas as informações sobre a rede do projeto, desde in
 
 ## 🌐 Informações técnicas
 
-### 🧱Firewall
-
-*Porta 1* (WAN)
-
-IP WAN: Dynamic IP (VMWare NAT)  
-
-<br>
-
-*Porta 2* (LAN)
-
-192.168.0.1/24 (LAN Segment 1)
-
-<br>
-
-*DHCP*
-
-IP Range: 192.168.0.100 - 192.168.0.200  
-IP Mask: 255.255.255.0  
-Gateway: 192.168.0.1 (Firewall)  
-DNS: 192.168.0.2 (Windows Server)  
-DNS alt: 1.1.1.1
-
-<br>
-
 ### 🖥️Dispositivos
 
-Sub-rede: 192.168.0.0/24
+Sub-rede: 192.168.0.0/24  
+Máscara De Rede: 255.255.255.0
 
 Firewall: 192.168.0.1
 
