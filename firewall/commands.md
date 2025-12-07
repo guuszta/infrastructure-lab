@@ -14,7 +14,7 @@ end
 config system interface  
     edit port1  
         set mode dhcp  
-        set allowaccess ping https ssh  
+        set allowaccess ping http https ssh  
     next  
 end
 ```
@@ -25,7 +25,7 @@ end
 config system interface  
     edit port2  
         set ip 192.168.0.1/24  
-        set allowaccess ping https ssh  
+        set allowaccess ping http https ssh  
     next  
 end
 ```
@@ -60,9 +60,12 @@ config firewall policy
         set action accept  
         set srcaddr all  
         set dstaddr all
+        set schedule always
         set service ALL
         set nat enable  
     next  
 end
 ```
+
+
 

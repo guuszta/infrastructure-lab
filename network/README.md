@@ -31,7 +31,7 @@ Windows 11 / Outros Hosts: Dynamic IP
 
 ## 🆔 Convenção De Nomes
 
-Firewall: ***FW01***
+Firewall: ***FW-01***
 
 Windows Server 2019: ***SRV-DC***
 
