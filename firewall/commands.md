@@ -60,9 +60,11 @@ config firewall policy
         set action accept  
         set srcaddr all  
         set dstaddr all
+        set schedule always
         set service ALL
         set nat enable  
     next  
 end
 ```
+
 
