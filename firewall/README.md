@@ -21,18 +21,11 @@ Gateway: 192.168.0.1
 DNS: 192.168.0.2 (Windows Server)  
 DNS alt: 1.1.1.1
 
-## 🧬Protocolos habilitados
-
-- NAT
-- DHCP
-- HTTP/HTTPS
-- SSH
-- PING
-
 ## ♒Fluxos principais
 
 - LAN → WAN (NAT)
 - LAN → AD/DNS
 - LAN → DB
 - LAN → Client Hosts
+
 
