@@ -6,12 +6,13 @@ Este diretório documenta o Firewall utilizado no ambiente, baseado no Fortigate
 
 ### Porta 1 (WAN)
 
-IP WAN: Dynamic IP (VMWare NAT)
+NIC: NAT
+IP WAN: Dynamic IP (VMWare NAT IP)
 
 ### Porta 2 (LAN)
 
-192.168.0.1/24  
-LAN Segment 1
+NIC: LAN Segment 1
+192.168.0.1/24 
 
 ### DHCP
 
@@ -34,4 +35,5 @@ Destination Address: all
 Schedule: always  
 Services: ALL  
 NAT: enabled
+
 
