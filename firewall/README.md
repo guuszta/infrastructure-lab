@@ -2,6 +2,8 @@
 
 Este diretório documenta o Firewall utilizado no ambiente, baseado no Fortigate (FortiOS). Configurações gerais de rede e explicações estão documentadas em: [Network](https://github.com/guuszta/infrastructure-lab/blob/dev/network/README.md)
 
+<br>
+
 ## 🌐Interfaces configuradas
 
 ### Porta 1 (WAN)
@@ -22,6 +24,8 @@ Gateway: 192.168.0.1
 DNS: 192.168.0.2 (Windows Server)  
 DNS alt: 1.1.1.1
 
+<br>
+
 ## ⛔ Políticas
 
 ### LAN-to-WAN (SNAT)  
@@ -35,6 +39,7 @@ Destination Address: all
 Schedule: always  
 Services: ALL  
 NAT: enabled
+
 
 
 
