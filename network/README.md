@@ -29,6 +29,8 @@ Windows 11 / Outros Hosts: Dynamic IP
 
  Todos os adaptadores de rede das VMs estão vinculados ao **LAN Segment 1**, sendo totalmente controlados pelo Firewall. Dessa forma, as VMs acessam a internet por meio do NAT do Firewall e se comunicam entre si por estarem no mesmo domínio de broadcast, dentro da mesma sub-rede. Cada VM utiliza endereçamento estático conforme documentado nas Informações Técnicas.
 
+<br>
+
 ## 🆔 Convenção De Nomes
 
 Firewall: ***FW-01***
