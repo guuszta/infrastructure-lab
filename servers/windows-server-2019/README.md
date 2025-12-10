@@ -8,7 +8,6 @@ Este diretório documenta o servidor principal do ambiente, responsável por AD,
 
 Hostname: SRV-DC  
 Sistema Operacional: Windows Server 2019  
-IP: 192.168.0.2
 
 ### Serviços:
 Active Directory  
@@ -16,10 +15,20 @@ DNS Server
 
 <br>
 
+## 🌐 Configuração de Rede
+
+IP: 192.168.0.2  
+Gateway: 192.168.0.1  
+Mask: 255.255.255.0  
+Primary DNS: 192.168.0.2  
+Alt DNS: 1.1.1.1
+
+<br>
+
 ## 🧬 Active Directory
 
-Domínio: infralab.local  
-Nível funcional: Windows Server 2016
+Domain: infralab.local  
+Functional Level: Windows Server 2016
 
 ### 🔹 Estrutura Organizacional Ative Directory
 ```
@@ -51,5 +60,6 @@ Caminho UNC:
 ```
 \\SRV-DC\Users\Administrator\Pictures\Wallpapers\Wallpaper.png
 ```
+
 
 
