@@ -8,6 +8,7 @@ Este diretório documenta o servidor principal do ambiente, responsável por AD,
 
 Hostname: SRV-DC  
 Sistema Operacional: Windows Server 2019  
+IP: 192.168.0.2
 
 ### Serviços:
 Active Directory  
@@ -50,4 +51,5 @@ Caminho UNC:
 ```
 \\SRV-DC\Users\Administrator\Pictures\Wallpapers\Wallpaper.png
 ```
+
 
