@@ -2,37 +2,44 @@
 
 Este diretório documenta o Firewall utilizado no ambiente, baseado no Fortigate (FortiOS). Configurações gerais de rede e explicações estão documentadas em: [Network](https://github.com/guuszta/infrastructure-lab/blob/dev/network/README.md)
 
+<br>
+
 ## 🌐Interfaces configuradas
 
 ### Porta 1 (WAN)
 
-IP WAN: Dynamic IP (VMWare NAT)
+NIC: NAT  
+IP WAN: Dynamic IP (VMWare NAT IP)
 
 ### Porta 2 (LAN)
 
-192.168.0.1/24  
-LAN Segment 1
+NIC: LAN Segment 1  
+IP LAN: 192.168.0.1/24 
 
 ### DHCP
 
 Range: 192.168.0.100 - 192.168.0.200  
-Máscara: 255.255.255.0  
+Mask: 255.255.255.0  
 Gateway: 192.168.0.1  
 DNS: 192.168.0.2 (Windows Server)  
 DNS alt: 1.1.1.1
 
-## 🧬Protocolos habilitados
+<br>
 
-- NAT
-- DHCP
-- HTTP/HTTPS
-- SSH
-- PING
+## ⛔ Políticas
 
-## ♒Fluxos principais
+### LAN-to-WAN (SNAT)  
 
-- LAN → WAN (NAT)
-- LAN → AD/DNS
-- LAN → DB
-- LAN → Client Hosts
+Source Interface: port2 (LAN)  
+Destination Interface: port1 (WAN)
+
+Action: Accept  
+Source Address: all  
+Destination Address: all  
+Schedule: always  
+Services: ALL  
+NAT: enabled
+
+
+
 

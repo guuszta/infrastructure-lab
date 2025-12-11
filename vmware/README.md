@@ -1,6 +1,7 @@
 # 📌Ambiente De Virtualização Do Projeto  
 Este diretório contém toda a estrutura e documentação relacionada as máquinas virtuais utilizadas no laboratório de infraestrutura. O software de virtualização a ser utilizado será o VMWare Workstation.
 
+<br>
 
 ## 🖥️Máquinas Virtuais
 * FortigateOS (NAT, DHCP, Políticas, etc.);  
@@ -8,6 +9,7 @@ Este diretório contém toda a estrutura e documentação relacionada as máquin
 * Ubuntu Server (MySQL Dedicated Server);  
 * Windows 11 (Host Cliente).
 
+<br>
 
 ## ⚙️Configuração de Hardware das VMs
 
@@ -30,6 +32,8 @@ Este diretório contém toda a estrutura e documentação relacionada as máquin
 * 2 CPU
 * 4 GB RAM
 * 1 NIC
+
+<br>
 
 ## 🌐Configuração De Rede Virtual (vNICs)
 
