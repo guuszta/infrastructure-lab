@@ -24,7 +24,7 @@ O projeto foi construído em ambiente virtualizado utilizando **VMware Workstati
 ### Visão Geral
 - Firewall Fortigate como gateway da rede
 - **NAT** para acesso à internet
-- **DHCP** centralizado
+- **DHCP** para máquinas clientes
 - Servidores e clientes na mesma LAN
 - Controle de tráfego via políticas de firewall
 
