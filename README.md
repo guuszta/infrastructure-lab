@@ -19,7 +19,7 @@ O projeto foi construído em ambiente virtualizado utilizando **VMware Workstati
 
 ## 🗺️ Topologia Lógica da Rede
 
-![Topologia Lógica](./Network/topologia-logica.png)
+![Topologia Lógica](https://github.com/guuszta/infrastructure-lab/blob/dev/network/Topologia-Logica.jpeg)
 
 ### Visão Geral
 - Firewall Fortigate como gateway da rede
