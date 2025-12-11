@@ -34,9 +34,8 @@ O projeto foi construído em ambiente virtualizado utilizando **VMware Workstati
 
 ### 🧱 Firewall
 - Fortigate (FortiOS)
-- NAT (SNAT)
 - DHCP Server
-- Políticas LAN → WAN
+- LAN → WAN (NAT)
 - Controle de acesso por interface
 
 📁 Documentação: [`/Firewall`](https://github.com/guuszta/infrastructure-lab/tree/main/firewall)
@@ -55,9 +54,9 @@ O projeto foi construído em ambiente virtualizado utilizando **VMware Workstati
 
 ### 🐧 Ubuntu Server
 - MySQL Server (Dedicated)
-- Acesso remoto controlado
-- Integração com cliente Windows
-
+- Acesso liberado para a rede local
+- Criação de usuário
+  
 📁 Documentação: [`/Servers/Ubuntu-Server`](https://github.com/guuszta/infrastructure-lab/tree/main/servers/ubuntu-db)
 
 <br>
@@ -65,6 +64,6 @@ O projeto foi construído em ambiente virtualizado utilizando **VMware Workstati
 ### 💻 Windows 11
 - IP dinâmico via DHCP
 - Ingressado no domínio
-- Acesso ao MySQL via MySQL Workbench
+- Acesso ao servidor MySQL via MySQL Workbench
 
 📁 Documentação: [`/Clients/Windows-11`](https://github.com/guuszta/infrastructure-lab/tree/main/servers/windows11)
